@@ -1,0 +1,27 @@
+body {
+    font-family:Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, serif;
+}
+
+thead tr {
+    background: #3587ca71;
+}
+
+tbody tr:nth-child(even) {
+    background: #fff;
+  }
+  
+  tbody tr:nth-child(odd) {
+    background: #ccc;
+  }
+
+  blockquote {
+    border-left: 2.2px solid rgb(221,221,211);
+    padding-left: 10px;
+    font-style: italic;
+  }
