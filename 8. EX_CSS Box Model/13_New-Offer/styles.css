@@ -1,0 +1,20 @@
+/* •	<main>:
+o	Width: 700px
+o	Height: 500px
+o	Margins: 60px
+•	img.new:
+o	Relative position
+o	Top coordinates: -200px
+o	Right coordinates: 150px */
+
+main {
+    width: 700px;
+    height: 500px;
+    margin: 60px;
+}
+
+img.new {
+    position: relative;
+    top: -200px;
+    right: 150px;
+}
