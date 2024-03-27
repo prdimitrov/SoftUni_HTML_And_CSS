@@ -1,0 +1,12 @@
+/* Use viewport to solve the problem:
+	body - width:80vw
+	img – width:80vw and height:70vh */
+@media (max-width: 768px) {
+    body {
+        width: 80vw;
+    }
+    img {
+        width: 80vw;
+        height: 70vh;
+    }
+}

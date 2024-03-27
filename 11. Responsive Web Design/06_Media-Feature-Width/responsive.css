@@ -1,0 +1,26 @@
+/* @media (max-width: 360px) {
+    article {
+        color: red;
+    }
+} */
+article {
+    border: 2px solid blue;
+    width: 360px;
+    color: red;
+}
+
+@media (min-width: 35rem) {
+    article {
+        border: none;
+        background: yellow;
+        color: black;
+        width:fit-content;
+    }
+}
+
+@media (max-width: 50rem) {
+    article {
+        width: 580px;
+        border: 2px solid blue;
+    }
+}
