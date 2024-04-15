@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background: #85dcff;
+    padding: 3em;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2em;
+}
+
+.left-container {
+    display: flex;
+    align-items: center;
+    max-width: 60%;
+}
+
+h1 {
+    padding-bottom: 1em;
+    font-size: 35px;
+    max-width: 60%;
+}
+
+.buttons {
+    display: flex;
+    gap: 1em;
+    margin-top: 1em;
+}
+
+.buttons a {
+    color: black;
+    text-decoration: none;
+    padding: 1em 2.1em;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.button-one {
+    background: #42AA59;
+    border: 1px solid black;
+    transition: 0.5s;
+}
+
+.button-one:hover {
+    background: #000;
+    color: #fff;
+    transition: 0.5s;
+}
+
+
+
+.button-two {
+    background: #fff;
+}
+
+.right-container {
+    display: flex;
+    max-width: auto;
+}
+
+img {
+    width: 360px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.left-container {
+    display: block;
+    width: 60%;
+    height: auto;
+}
+
+/* .left-container header {
+    max-width: 40%;
+} */
+
+/* .right-container {
+    display: block;
+    width: 30%;
+    height: auto;
+}
+
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+} */
