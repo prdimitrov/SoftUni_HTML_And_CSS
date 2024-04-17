@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background: #fff;
+    flex-direction: row;
+    padding: 2em;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header h1 {
+    color: #313131;
+}
+
+.header h6 {
+    color: #8E8080;
+    align-self: last baseline;
+    letter-spacing: 3px;
+}
+
+/* CINEMA - #313131 */
+/* BY IMDB - #8E8080*/
+
+.vertical-line {
+    background: #DBDBDB;
+    width: 2px;
+    height: 37px;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+}
+
+.header-right nav {
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+}
+
+.header-right a {
+    text-decoration: none;
+    color: #696969;
+    font-size: 8px;
+    text-align: center;
+    background: #ECECEC;
+    padding: 1.5em;
+}
+
+.header-right a:first-child {
+    background: #56DBB1;
+    color: #000;
+}
+
+.page-main-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.page-main-content-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #56DBB1;
+}
+
+.page-main-content-text p {
+    padding: 2em;
+    text-align: center;
+    max-width: 75%;
+}
+
+.page-info,
+.page-article {
+    padding: 4em 2em 4em 2em;
+    background: #353434;
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+.page-info-content,
+.page-article-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-indent: 1px;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.page-info-content img {
+    width: 80px;
+    height: 80px;
+}
+
+.page-info-content h4 {
+    color: white;
+}
+
+.page-info-content .horizontal-line {
+    height: 2px;
+    background: #fff;
+    width: 100%;
+}
+
+.page-info-content p {
+    color: #5B5956;
+}
+
+.page-maecenas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 0 4em 0;
+    gap: 0.3em;
+}
+
+.page-maecenas h1 {
+    color: #5B5956;
+}
+
+.page-maecenas h3 {
+    color: #8E8080;
+    max-width: 733.22px;
+    font-size: 15px;
+}
+
+.page-maecenas a {
+    margin-top: 1.5em;
+    padding: 1em;
+    background: #974D1B;
+    color: white;
+    text-decoration: none;
+}
+
+.page-article-content h2 {
+    color: #fff;
+}
+
+.page-article-content p {
+    color: #5B5956;
+}
+
+.footer {
+    background: #56DBB1;
+    color: #43a879f8;
+    padding: 2em;
+}
+
+.footer p {
+    align-self: center;
+    text-align: center;
+}
+
+.footer span {
+    color: white;
+}
