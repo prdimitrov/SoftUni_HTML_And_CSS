@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Kode Mono';
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #C1BDBA;
+}
+
+h1 {
+    color: #fff;
+    font-weight: lighter;
+    padding: 0.7em 0 0.7em 0;
+    text-align: center;
+}
+
+span {
+    color: #1BB18A;
+    padding-left: 2px;
+}
+
+.box {
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2em;
+    padding: 1em;
+    background: #24333C;
+    width: fit-content;
+    height: auto;
+    box-shadow: 0 0 6px 4px rgba(0, 0, 0, 0.171);
+    border: 2px solid #273741;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+}
+
+p {
+    border: 1px solid #afaaaade;
+    padding-left: 0.5em;
+    color: #afaaaade;
+}
+
+.first-and-last-name {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0.5em;
+}
+
+.email-and-password {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    padding: 1em 0 1em 0;
+}
+
+.first-and-last-name p {
+    padding-right: 11%;
+}
+
+.sign-up {
+    background: #1AB188;
+    color: #fff;
+}
+
+.log-in {
+    background: #435359;
+    color: #798E8C;
+}
+
+.log-in:hover {
+    background: #179A77;
+    color: #FFF8E1;
+}
+
+.sign-or-login-buttons {
+    display: flex;
+    flex-direction: row;
+}
+
+.sign-up,
+.log-in {
+    padding: 1em 2em 1em 2em;
+    width: 90px;
+}
+
+.get-started-button {
+    background-color: #1AB188;
+}
+
+.get-started-button h1 {
+    margin-top: 0.5em;
+    padding: 0.3em 1em 0.3em 1em;
+    font-size: 30px;
+}

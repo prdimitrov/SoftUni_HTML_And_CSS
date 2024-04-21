@@ -1,0 +1,131 @@
+@media screen and (max-width: 600px) {
+    .home-container02 {
+        width: 100%;
+    }
+
+    .home-header {
+        height: auto;
+        flex-direction: column;
+        padding: 0.5em 0 0.5em 0;
+    }
+
+    .home-container01 {
+        width: 100%;
+    }
+
+    .home-nav {
+        padding: 0;
+    }
+
+    .navigation-links-nav {
+        flex: 0;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 0.5em;
+    }
+
+    .navigation-links-nav span {
+        margin: 0;
+    }
+
+    .home-blog {
+        /* width: 100%; */
+        display: flex;
+        padding: unset;
+        max-width: 600px;
+        /* height: auto; */
+        height: fit-content;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        background-color: #d9d9d9;
+    }
+
+    .home-container04 {
+        display: flex;
+        align-items: center;
+        /* margin-bottom: 32px; */
+        margin: 1em 1em 32px 1em;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .blog-post-card3-blog-post-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog-post-card3-blog-post-card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .blog-post-card3-blog-post-card img:last-of-type {
+        max-width: 90%;
+    }
+
+
+    /* GRID (0.o) */
+    .home-stats {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+
+    .home-stat {
+        padding: 20px;
+    }
+
+    .home-text {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+    }
+
+    .home-text span {
+        margin-right: 5px;
+    }
+
+    .home-text01 {
+        font-size: 18px;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    .home-text02 {
+        font-size: 14px;
+    }
+
+    .home-container06 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-container08 {
+        flex-direction: column;
+    }
+
+    .home-container07 {
+        align-items: center;
+        width: 100%;
+    }
+
+    .home-container09,
+    .home-container10 {
+        align-items: center;
+        margin: 0;
+        padding: 0;
+        width: 80%;
+    }
+
+    .home-container08 {
+        width: 100%;
+        gap: 2em;
+    }
+
+    .home-text03 {
+        text-align: center;
+    }
+}
