@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Serif');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,700');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'PT Serif', serif, 'PT Sans', sans-serif;
+}
+
+.site-header {
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    /* height: 938px; */
+    color: #fff;
+}
+
+.site-navigation {
+    padding: 3.5em;
+}
+
+nav img {
+    width: 100px;
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.header-content h1 {
+    font-weight: lighter;
+}
+
+.header-content {
+    font-size: larger;
+}
+
+.header-content p,
+.header-content h1 {
+    text-align: left;
+    max-width: 100%;
+}
+
+.header-content {
+    flex-direction: column;
+    gap: 1em;
+    max-width: 24%;
+    position: relative;
+    padding-bottom: 10em;
+    margin: 5em;
+}
+
+.site-info,
+.sponsors-and-partners,
+.footer-info,
+.footer-copyright {
+    padding: 5em;
+    display: flex;
+    /* margin: 4em 8em 4em 8em; */
+}
+
+.site-info {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    /* width: 30%; */
+    gap: 1em;
+    text-align: left;
+}
+
+.block p {
+    max-width: 90%;
+}
+
+.block a {
+    padding: 0.5em 1em 0.5em 1em;
+    border: 2px solid #B0825C;
+    width: 200px;
+    text-align: center;
+    text-decoration: none;
+    color: #B0825C;
+    font-weight: bold;
+}
+
+.line {
+    background-color: #CCCCCC;
+    height: 2px;
+    width: 100%;
+    margin: 5em 0 5em 0;
+}
+
+.sponsors-and-partners h1 {
+    color: #B0825C;
+}
+
+.sponsors-and-partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3em;
+}
+
+.images {
+    display: flex;
+    gap: 3em;
+}
+
+.images img {
+    width: 150px;
+    height: 150px;
+}
+
+.footer-info {
+    padding: 4em;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    align-items: flex-start;
+}
+
+.footer-info h3 {
+    color: #fff;
+}
+
+.footer-copyright {
+    padding: 0.5em 0 0.5em 1em;
+    margin-left: 4em;
+    border-top: 2px solid #CCCCCC;
+}
+
+
+.footer-info p,
+.footer-copyright span {
+    color: #A4A69B;
+}
+
+#drk-bgrd {
+    background: #171720;
+}
