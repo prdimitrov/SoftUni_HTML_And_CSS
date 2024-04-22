@@ -3,7 +3,7 @@
         display: none;
     }
 
-    .home-cards-container>* {
+    .home-cards-container> * {
         flex: 0 0 calc(50% - 16px);
         margin-bottom: 32px;
     }
@@ -26,7 +26,19 @@
     }
 
     .home-container08 {
-        justify-content: center;
+        flex: 0 0 auto;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 1em;
+    }
+
+    .blog-post-card-blog-post-card {
+        align-self: center;
+        max-width: 100%;
     }
 
     .home-links-container {
@@ -37,5 +49,8 @@
         max-width: 100%;
         flex-direction: column-reverse;
         gap: 1.5em;
+    }
+    .blog-post-card-container {
+        padding: 1em 0 0 0;
     }
 }
